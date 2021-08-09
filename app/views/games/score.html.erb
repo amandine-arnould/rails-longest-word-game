@@ -1,0 +1,6 @@
+<h2>Result</h2>
+<p>Your word: <%= params[:guess].upcase %></p>
+<p>The grid: <%= params[:letters].upcase %></p>
+<p><%= @result %></p>
+
+<%= link_to "Play again", new_path %>
